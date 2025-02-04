@@ -1,0 +1,54 @@
+h1{
+    color: rgb(100, 27, 26);
+    font-size: 50px;
+}
+nav {
+    background-color: rgba(226, 93, 26, 0.705);
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    background-color:rgb(244, 236, 199);
+}
+li {
+    list-style: none;
+    display: inline
+}
+nav ul li {
+    margin-left: 2rem;
+    font-size: 29px;
+    margin-right: 3rem;
+}
+nav ul li a:hover {
+    color: rgb(246, 229, 173);
+}
+
+nav ul li a {
+    color: rgb(27, 21, 36);
+}
+a {
+    text-decoration: none;
+}
+form{
+    background-color:rgba(157, 191, 158, 0.548) ;
+    width: 50rem;
+    border-radius: 19px;
+    font-size: 25px;
+    padding: 30px
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+select {
+    padding: 12px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 80%;
+    border: 2px solid #82c0849d;
+    border-radius: 5px;
+    background-color:rgb(244, 236, 199)
+}
