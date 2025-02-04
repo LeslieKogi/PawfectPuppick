@@ -1,3 +1,38 @@
+/*colour cheme */
 nav{
-    background-color: rgb(228, 88, 27);
+    background-color: rgba(228, 87, 27, 0.322);
+    border-radius:  19px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+background: linear-gradient(90deg, rgba(215, 140, 59, 0.8687850140056023) 0%, rgba(184, 106, 106, 0.582) 34%, rgba(176, 215, 180, 0.411) 71%),url('../assets/pups.jpg');
+}
+h1{
+    color: rgb(100, 27, 26);
+    font-size: 50px;
+    
+}
+h2{
+    color:rgb(95, 19, 24);
+}
+li{
+    list-style:none;
+    display:inline
+}
+
+a{
+    text-decoration: none;
+}
+nav ul li{
+    margin-left:2rem;
+    font-size:29px;
+    margin-right: 3rem;
+}
+nav ul li a:hover{
+    color: rgb(246, 229, 173);
+}
+nav ul li a {
+    color: rgb(27, 21, 36);
 }
