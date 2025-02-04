@@ -8,6 +8,13 @@ nav{
 }
 body{
 background: linear-gradient(90deg, rgba(215, 140, 59, 0.8687850140056023) 0%, rgba(184, 106, 106, 0.582) 34%, rgba(176, 215, 180, 0.411) 71%),url('../assets/pups.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+html, body{
+    height:100%;
+    
 }
 h1{
     color: rgb(100, 27, 26);
@@ -35,4 +42,18 @@ nav ul li a:hover{
 }
 nav ul li a {
     color: rgb(27, 21, 36);
+}
+body {
+    background: linear-gradient(90deg, rgba(215, 140, 59, 0.868) 0%, rgba(184, 106, 106, 0.582) 34%, rgba(176, 215, 180, 0.411) 71%), url('../assets/pups.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    margin: 0;
+}
+@media (max-width:600px){
+    p{
+      font-size:2rem;
+      line-height:1.2;
+    }
 }
