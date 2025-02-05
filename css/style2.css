@@ -48,7 +48,21 @@ select {
     margin-bottom: 10px;
     font-size: 20px;
     width: 80%;
-    border: 2px solid #82c0849d;
+    border: 2px ;
     border-radius: 5px;
-    background-color:rgb(244, 236, 199)
+    background-color:rgb(244, 236, 199);
+}
+button{
+    padding:0.5rem;
+    font-size:19px;
+    background-color:rgb(244, 236, 199);
+}
+button :hover{
+    color:blue
+}
+@media (max-width: 600px) {
+    form {
+        width: 100%;
+        font-size: 1rem;
+    }
 }

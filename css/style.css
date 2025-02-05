@@ -52,8 +52,19 @@ body {
     margin: 0;
 }
 @media (max-width:600px){
-    p{
-      font-size:2rem;
-      line-height:1.2;
+      body{
+        background-size: contain;
     }
-}
+   ul {
+         font-size: 1rem;
+              /* Adjust the font size for list items */
+              padding-left: 0;
+              /* Remove extra padding if needed */
+              margin: 0;
+              /* Adjust margin for a tighter layout */
+          }
+     h1 {
+       font-size: 2rem;
+      /* Adjust the heading size for smaller screens */
+        /* You can add additional properties here if needed */
+     }}
