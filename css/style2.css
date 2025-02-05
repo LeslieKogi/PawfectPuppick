@@ -10,7 +10,7 @@ nav {
     justify-content: space-between;
 }
 body{
-    background-color:rgb(244, 236, 199);
+  background-color:rgb(244, 236, 199);
 }
 li {
     list-style: none;
@@ -36,7 +36,8 @@ form{
     width: 50rem;
     border-radius: 19px;
     font-size: 25px;
-    padding: 30px
+    padding: 30px;
+    margin: 0 auto;
 }
 label {
     display: block;
@@ -60,9 +61,25 @@ button{
 button :hover{
     color:blue
 }
+
+
 @media (max-width: 600px) {
     form {
         width: 100%;
         font-size: 1rem;
     }
+          ul {
+              font-size: 1rem;
+              /* Adjust the font size for list items */
+              padding-left: 0;
+              /* Remove extra padding if needed */
+              margin: 0;
+              /* Adjust margin for a tighter layout */
+          }
+    
+          h1 {
+              font-size: 2rem;
+              /* Adjust the heading size for smaller screens */
+              /* You can add additional properties here if needed */
+          }
 }
