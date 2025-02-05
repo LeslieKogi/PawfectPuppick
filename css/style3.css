@@ -1,0 +1,49 @@
+h1 {
+    color: rgb(100, 27, 26);
+    font-size: 50px;
+}
+
+nav {
+    background-color: rgba(226, 93, 26, 0.705);
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    background-color: rgb(244, 236, 199);
+}
+
+li {
+    list-style: none;
+    display: inline
+}
+
+nav ul li {
+    margin-left: 2rem;
+    font-size: 29px;
+    margin-right: 3rem;
+}
+
+nav ul li a:hover {
+    color: rgb(246, 229, 173);
+}
+
+nav ul li a {
+    color: rgb(27, 21, 36);
+}
+
+a {
+    text-decoration: none;
+}
+main{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* Adds space between text and image */
+}
+img{
+    border-radius: 19px;
+    padding-top: 4rem;
+}
