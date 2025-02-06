@@ -28,4 +28,4 @@ Feel free to fork the repository and create a pull request with any improvements
 This website is open-source and can be freely modified and distributed. However, please ensure that you credit **PawfectPuppick** when using any content or code.
 
 ## Contact
-For any inquiries or feedback, feel free to contact us at **info@pawfectpuppick.com*
+For any inquiries or feedback, feel free to contact me at**lesliekogi@gmail.com**
