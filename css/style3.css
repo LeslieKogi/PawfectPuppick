@@ -4,7 +4,7 @@ h1 {
 }
 
 nav {
-    background-color: rgba(226, 93, 26, 0.705);
+    background-color: rgba(219, 177, 155, 0.705);
     border-radius: 19px;
     display: flex;
     align-items: center;
@@ -12,7 +12,12 @@ nav {
 }
 
 body {
-    background-color: rgb(244, 236, 199);
+    background: linear-gradient(90deg, rgba(215, 140, 59, 0.868) 0%, rgba(184, 106, 106, 0.582) 34%, rgba(176, 215, 180, 0.411) 71%), url('../assets/happpydog.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    margin: 0;
 }
 
 li {
@@ -40,10 +45,34 @@ a {
 main{
     display: flex;
     align-items: center;
-    gap: 20px;
-    /* Adds space between text and image */
+    gap: 1px;
+   
 }
 img{
     border-radius: 19px;
-    padding-top: 4rem;
+    padding-left: 0rem;
+}
+.borderd{
+    border:6px solid rgb(192, 192, 192);
+    width: 50%;
+    border-radius: 19px;
+}
+
+p{
+    font-size: 25px;
+}
+@media (max-width:600px) {
+    body {
+        background-size: contain;
+    }
+
+    ul {
+        font-size: 1rem;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
 }

@@ -49,15 +49,13 @@ if (timetype==="No"){
 if(plantype==="No"){
     possibleBreeds=possibleBreeds.filter(breed=>!["German Shepherd","Labrador Retriever"].includes(breed));
 }
-
-//Display the results
+//Stores the breeds in local storage
 
 if(possibleBreeds.length>0){
-    alert("Your ideal dog breed(s):"+possibleBreeds.join(","));
+    localStorage.setItem('idealBreeds',possibleBreeds.join(","))
 
-}else{
-    alert("No breed matches.Try adjusting your preferences.");
+    alert("Your ideal dog breed(s): " + possibleBreeds.join(","));
+} else {
+    alert("No matches. Try adjusting preferences.");
 }
-
 }
-
