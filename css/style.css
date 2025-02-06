@@ -51,6 +51,9 @@ body {
     height: 100%;
     margin: 0;
 }
+p{
+    font-size: 20px;
+}
 @media (max-width:600px){
       body{
         background-size: contain;
